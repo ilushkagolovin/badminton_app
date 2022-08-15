@@ -16,8 +16,8 @@
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:layout_width="match_parent"
             android:layout_height="240dp"
-            android:background="@color/purple"
-            app:contentScrim="@color/purple"
+            android:background="#37003C"
+            app:contentScrim="#37003C"
             app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
             app:title="Saina Nehwal">
 
