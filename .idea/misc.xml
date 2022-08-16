@@ -3,7 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/badminton/app/src/main/res/layout/activity_main.xml" value="0.3484375" />
+        <entry key="..\:/badminton/app/src/main/res/drawable/text_background.xml" value="0.179" />
+        <entry key="..\:/badminton/app/src/main/res/layout/activity_main.xml" value="0.5" />
       </map>
     </option>
   </component>
