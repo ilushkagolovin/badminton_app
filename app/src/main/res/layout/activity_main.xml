@@ -293,17 +293,17 @@
                     android:id="@+id/physical_parameters"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/physical_parameters"
-                    android:textSize="24sp"
-                    android:textColor="@color/black"
                     android:paddingTop="22dp"
                     android:paddingBottom="26dp"
-                    android:layout_marginRight="60dp"
+                    android:text="@string/physical_parameters"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
                     android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/physical_parameters_scroll"
                     app:layout_constraintEnd_toEndOf="@+id/information_athletics"
+                    app:layout_constraintHorizontal_bias="0.43"
                     app:layout_constraintStart_toStartOf="@+id/information_athletics"
-                    app:layout_constraintTop_toTopOf="@id/information_athletics"
-                    app:layout_constraintBottom_toTopOf="@+id/physical_parameters_scroll"/>
+                    app:layout_constraintTop_toTopOf="@id/information_athletics" />
 
                 <HorizontalScrollView
                     android:id="@+id/physical_parameters_scroll"
@@ -476,9 +476,8 @@
                     android:textColor="@color/black"
                     android:textSize="24sp"
                     android:textStyle="bold"
-                    android:paddingHorizontal="87dp"
-                    app:layout_constraintTop_toBottomOf="@+id/physical_parameters_scroll"
-                    app:layout_constraintBottom_toTopOf="@+id/biography_information"/>
+                    app:layout_constraintStart_toStartOf="@id/physical_parameters"
+                    app:layout_constraintTop_toBottomOf="@+id/physical_parameters_scroll"/>
 
                 <TextView
                     android:id="@+id/biography_information"
