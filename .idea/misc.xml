@@ -14,6 +14,10 @@
         <entry key="..\:/badminton/app/src/main/res/font/raleway.xml" value="0.32685185185185184" />
         <entry key="..\:/badminton/app/src/main/res/font/roboto_bold.xml" value="0.19166666666666668" />
         <entry key="..\:/badminton/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/badminton_app/app/src/main/res/drawable-v24/white_shape_small.xml" value="0.245" />
+        <entry key="..\:/badminton_app/app/src/main/res/drawable/arrow_back.xml" value="0.245" />
+        <entry key="..\:/badminton_app/app/src/main/res/drawable/physical_parameters_shape.xml" value="0.245" />
+        <entry key="..\:/badminton_app/app/src/main/res/layout/activity_main.xml" value="0.2" />
       </map>
     </option>
   </component>
